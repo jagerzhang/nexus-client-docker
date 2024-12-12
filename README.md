@@ -10,7 +10,7 @@ docker run -d \
     --network host \
     --cpus 3 \                                    
     -e PROVER_ID=V6IkE6gZWzOV3HXdhXtJSmGLuGQ2 \   # 这里改成你的 prover ID 即可。
-    jagerzhang/nexus-c^Cent:v0.4.2
+    jagerzhang/nexus-client:v0.4.2
 ```
 
 - `注1：如需控制CPU数量，请修改 --cpus 参数，不需要控制可以直接去掉`
