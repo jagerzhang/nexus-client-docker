@@ -9,7 +9,7 @@ docker run -d \
     --name nexus \
     --network host \
     --cpus 3 \                                    
-    -e PROVER_ID=V6IkE6gZWzOV3HXdhXtJSmGLuGQ2 \   # 这里改成你的 prover ID 即可。
+    -e PROVER_ID=V6IkE6gZWzOV3HXdhXtJSmGLuGQ2 \
     jagerzhang/nexus-client:v0.4.2
 ```
 
